@@ -54,7 +54,7 @@ class HelpMod(loader.Module):
         if not args:
         	await message.edit(
         	"<b>Please choose a section to see your modules:</b>\n<b>—–—–—–—–—–——–––—–—–———</b>"
-        	"\n\n\n<code>.help raph</code>:<i> Shows all your PP and PPE originated modules.</i>\n"
+        	"\n\n\n<code>.help raph</code>:<i><b> Shows all your PP and PPE originated modules.</b></i>\n"
         	"\n<code>.help uni</code>:<i><b> Shows all your Uniborg originated modules.</b></i>\n"
         	"\n<code>.help ftg</code>:<i><b> Shows all your native modules.</b></i>\n"
         	"\n<code>.help all</code>:<i><b> Shows all your modules.</b></i>")
